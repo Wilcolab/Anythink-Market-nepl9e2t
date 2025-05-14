@@ -49,13 +49,17 @@ body {
 }
 
 .crop-text-3 {
-  -webkit-line-clamp: 3;
-  overflow: hidden;
-  text-overflow: ellipsis;
   display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .user-info {
   min-width: 800px;
 }
+
+.navbar-nav .nav-item .nav-link {
+   color: #FFFFFF;
+} 
